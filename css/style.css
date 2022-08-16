@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #F4F3F8;
+}
+
+/* .bo{
+    border: 1px solid black;
+} */
+
+#navbarMonstera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 50px;
+    align-items: flex-end;
+}
+
+#navFirst{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#navMid{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25px;
+    font-family: "Allerta";
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#navMid > *{
+    font-size: 20px;
+    margin: 0px 25px;
+}
+
+#navEnd{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#navEnd > *{
+   padding: 0px 20px ;
+}
+
+
+/*  */
+
+#midWhole{
+    display: flex;
+    flex-direction: column;
+}
+
+#midWholePart1{
+    margin: 50px;
+    height: 100%;
+}
+
+#midWholePart111 ul li{
+    font-family: Allerta;
+    width: 50%;
+}
+
+#monstera{
+    font-size: 75px;
+    font-family: Allerta;
+    font-weight: 900;
+    text-align: ce;
+}
+
+
+
+
+#midWholePart13{
+    display: flex;
+    flex-direction: row;
+}
+
+#midWholePart12{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn{
+    background-color:#466D50 ;
+    color: white;
+    font-family: Allerta;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 25px;
+    margin: 50px 5px;
+}
+
+#midWholePart13{
+    display: flex;
+    flex-direction: row;
+    font-family: Allerta;
+    /* width: 75%; */
+
+}
+
+.midWholePart13Parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-head{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+.text{
+    font-size: 12.5px;
+    padding: 0px 5px;
+}
+
+.feeding,
+.light,
+.care
+{
+    height: 500px;
+    
+}
+
+.icon-box{
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box{
+    text-align: left;
+    width: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+#imgMain{
+    position: absolute;
+    height: 80%;
+    width: auto;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
